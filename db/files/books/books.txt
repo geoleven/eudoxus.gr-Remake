@@ -1,0 +1,7 @@
+id#name#ekdotis#isbn#writer#lang#sxoli#image
+inc#str#str#str#str#str#str#str
+#######
+1#Analusi sxoliou#omegasekdotis#2131231231#omegaswriter#en#Θεολογική#http://michellesread.com/files/2013/04/smile.jpg
+2#Ασύρματες επικοινωνίες και δίκτυα#ΤΖΙΟΛΑ#978-960-418-213-0#Stallings William#el#Πληροφορικής και τηλεπικοινωνιών#https://static.eudoxus.gr/books/preview/00/cover-18548700.jpg
+3#Εφαρμοσμένος Απειροστικός Λογισμός#Συμμετρία#978-960-266-152-9#Τσίτσας Λ.#fr#Μαθηματικό#https://static.eudoxus.gr/books/preview/90/cover-45390.jpg
+4#ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ: ΜΙΑ ΣΥΓΧΡΟΝΗ ΠΡΟΣΕΓΓΙΣΗ#ΕΚΔΟΣΕΙΣ ΚΛΕΙΔΑΡΙΘΜΟΣ ΕΠΕ#960-209-873-2#STUART RUSSELL, PETER NORVIG#el#Φιλοσοφική#https://static.eudoxus.gr/books/preview/09/cover-13909.jpg

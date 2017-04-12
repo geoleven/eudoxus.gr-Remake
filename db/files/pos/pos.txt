@@ -1,0 +1,5 @@
+id#name#lastname#type#email#area#phone
+inc#str#str#str#str#str#str
+######
+1#Oikos#Pataki#ekdotis#pataki@pataki.gr#Syntagma#2101231231
+2#Vivliopwleio#To mple#simeiodianomis#tomple@paleta.gr#Koukouvaounes#2101232231

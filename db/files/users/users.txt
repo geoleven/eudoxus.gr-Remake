@@ -1,0 +1,13 @@
+id#pass#name#lastname#email#sxoli#panep#phone
+inc#str#str#str#str#str#str#str
+#######
+1#123#fsdfasf#dsfasfsd#no@no.com#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#asdfaf
+2#123#mplou#mpla#mpla@mpla.com#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#123456
+3#423543265326#sfdgsg#fsda#dfssdf@fsfd.com#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#524352435
+4#324423#dsfsfsd#efrwfwds#no@no.comfdsfs#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#234523523
+5#asds#adsd#adsd#asds#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#adsd
+6#fasdasdf#dfqwfdwss#qerqweqw#no@no.comdsf#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#fdassafs
+7#12523523#sdafsdgfsad#34235r25423#no@2523523no.com#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#23452345
+8#123asdgdsg#gsgvfsadgas#efrwetgfrweas#no@nosadgag.com#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#sadgasdfgas
+9#fdsdf123#asdsdf#fgsdwdsgfa#fdsno@no.com#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#fdsdf
+10#sfdasfasd#sdfsaf#fsdfsd#nfdsaafs#Θεολογική#Εθνικό Καποδιστριακό Πανεπιστήμιο#fasfsa

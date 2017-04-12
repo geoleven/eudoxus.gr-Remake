@@ -1,0 +1,28 @@
+	
+	#tblreg {
+		text-align: center;
+		margin: 0px auto;
+		margin-bottom: 20px;
+	}
+
+	#tblreg tr td select{
+		width: 67%;
+	}
+
+	.regtxt {
+		text-align:center;
+		margin: 0;
+		padding: 5px 15px;	
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	
+	#regbts {
+		margin-left: 80px;	
+		margin-bottom: 40px;
+	}

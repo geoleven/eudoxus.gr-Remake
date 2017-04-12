@@ -1,0 +1,20 @@
+
+
+	.bookbox {
+		float: none;				
+	}
+	
+	.bookimage {
+		float: left;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	
+	.bookdetails {
+		text-align:start;
+	}
+	
+	.article {
+		height: 500px;
+		overflow: auto;	
+	}

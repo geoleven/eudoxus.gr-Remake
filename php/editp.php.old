@@ -1,0 +1,76 @@
+<?php
+
+	include ("../db/txt-db-api.php");
+	session_start();
+	
+	if (isset($_SESSION["uem"])) {
+		if (!file_exists(DB_DIR . "users")) {
+			$db = new Database("users");
+			$db->executeQuery("CREATE TABLE users (id inc, pass str, name str, lastname str, email str, sxoli str, panep str, phone str)");
+			$db->executeQuery("INSERT INTO users(pass, name, lastname, email, sxoli, panep, phone) VALUES ('123', 'Mustermann', 'Stoneway', 'no@no.com', 'Stonehenge', 'mple', '12345')");
+		}
+		else {
+			$db = new Database("users");
+		}
+		$name = "";
+		$lastname = "";
+		$oldpass = "";
+		$pass = "";
+		$sxoli = "";
+		$panep = "";
+		$phone = "";
+		$name = $_POST["name"];
+		$lastname = $_POST["lastname"];
+		$oldpass = $_POST["oldpass"];
+		$pass = $_POST["pass"];
+		$sxoli = $_POST["sxoli"];
+		$panep = $_POST["panep"];
+		$phone = $_POST["phone"];
+		$st = $db->executeQuery("SELECT id FROM users WHERE email = \"".$_SESSION["uem"]."\";");
+		if($st->next() != 0) {
+			list($myidl) = $st->getCurrentValues();		
+			$myid = $myidl;
+			if ($name != "") {
+				
+			}
+			if ($lastname != "") {
+				
+			}
+			if ($sxoli != "") {
+				
+			}
+			if ($panep != "") {
+				
+			}
+			if ($phone != "") {
+				
+			}
+			if ($pass != "") {
+				$sta = $db->executeQuery("SELECT pass FROM users WHERE id = \"".$myid."\";");
+				$sta->next();
+				list($myoldstoredpassl) = $sta->getCurrentValues();
+				$myoldstoredpass = $myoldstoredpassl;
+				if ($oldpass == $myoldstoredpass) {
+					
+				}
+				else {
+						$_SESSION["errmsg1"] = 3;
+				}
+			}			
+		}
+		else {
+			$_SESSION["errmsg1"] = 2;
+		}			
+	}
+	else {
+		$_SESSION["errmsg1"] = 1;	
+	}
+?>
+<html>
+<head>
+<meta charset="utf-8">
+<meta HTTP-EQUIV="REFRESH" content="0; url=<?php echo "../index.php" ; ?>" />
+</head>
+<body>
+</body>
+</html>
